@@ -1,0 +1,91 @@
+for (let i in uniquecat){
+        
+          switch(uniquecat[i]){// to find category and fire particular case
+              case 'science':
+                 science.find({'_id':id},function(err,wdata)
+                  {  // console.log(wdata);  
+                     cart_resp += wdata;
+                      // console.log(cart_resp); 
+                      });
+              break
+              case 'history':
+                 history.find({'_id':id},function(err,wdata)
+                  {
+                      // cart_resp += wdata
+                      cart_resp += wdata;
+                      
+                      });
+              break
+              case 'math':
+                  math.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break            
+              case 'tech':
+                 tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'action and adventure':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'biographies':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'business':
+                 tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'children':
+                   tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'drama and comics':
+                   tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'health and fitness':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'horror':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'poetry':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+              case 'tech':
+                  tech.find({'_id':id},function(err,wdata)
+                      {
+                          cart_resp += wdata;
+                          });
+              break;
+
+              default:        
+                   cart_resp += wdata;
+                          
+              }//switch
+
+            }
